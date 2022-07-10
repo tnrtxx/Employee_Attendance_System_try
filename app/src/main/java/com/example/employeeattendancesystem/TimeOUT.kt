@@ -2,15 +2,15 @@ package com.example.employeeattendancesystem
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.employeeattendancesystem.databinding.ActivityTimeInBinding
+import com.example.employeeattendancesystem.databinding.ActivityTimeOutBinding
 
-class TimeIN : AppCompatActivity() {
+class TimeOUT : AppCompatActivity() {
 
-    private lateinit var binding: ActivityTimeInBinding
+    private lateinit var binding: ActivityTimeOutBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityTimeInBinding.inflate(layoutInflater)
+        binding = ActivityTimeOutBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }

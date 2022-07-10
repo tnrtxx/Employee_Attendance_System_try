@@ -16,10 +16,10 @@
         >
 
         <TextView
-            android:id="@+id/textview_time_in"
+            android:id="@+id/textview_time_out"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/time_in"
+            android:text="@string/time_out"
             android:textSize="24sp"
             android:layout_gravity="center_horizontal"
             android:textAlignment="gravity"
@@ -120,10 +120,10 @@
 
 
         <TextView
-            android:id="@+id/textview_enter_time_in"
+            android:id="@+id/textview_enter_time_out"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enter_time_in"
+            android:text="@string/enter_time_out"
             android:textSize="20sp"
             android:layout_gravity="center_horizontal"
             android:textAlignment="gravity"
@@ -140,22 +140,22 @@
             >
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textlayout_enter_time_in"
+                android:id="@+id/textlayout_enter_time_out"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/time_in"
+                android:hint="@string/time_out"
                 android:layout_marginTop="10dp"
 
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/textinput_enter_time_in"
+                    android:id="@+id/textinput_enter_time_out"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:layout_marginTop="20sp"
-                    android:hint="@string/time_in">
+                    android:hint="@string/time_out">
 
                 </com.google.android.material.textfield.TextInputEditText>
 
@@ -179,14 +179,14 @@
 
 
         <Button
-            android:id="@+id/button_enter_time_in"
+            android:id="@+id/button_enter_time_out"
             android:layout_width="180dp"
             android:layout_height="62dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:backgroundTint="#00928B"
             android:padding="12dp"
-            android:text="@string/enter_time_in"></Button>
+            android:text="@string/enter_time_out"></Button>
 
 
 
@@ -264,5 +264,5 @@
 
 
 
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>

@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textview_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/textview_item_time_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_in"
+            app:layout_constraintRight_toLeftOf="@id/textview_item_time_out"
+            app:layout_constraintLeft_toRightOf="@id/textview_item_date"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/textview_item_time_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_out"
+            android:gravity="right"
+            android:layout_gravity="right"
+            app:layout_constraintRight_toLeftOf="@id/imageview_edit"
+            app:layout_constraintLeft_toRightOf="@id/textview_item_time_in"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="14sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageview_edit"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_action_edit"
+            android:scaleType="center"
+            android:contentDescription="@string/edit"
+            app:layout_constraintRight_toLeftOf="@id/imageview_delete"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="14sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageview_delete"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_action_delete"
+            android:scaleType="center"
+            android:contentDescription="@string/delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>
