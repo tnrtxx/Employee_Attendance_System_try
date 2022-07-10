@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Employee Attendance System</string>
+    <string name="employee">Employee</string>
+    <string name="admin">Admin</string>
+</resources>
