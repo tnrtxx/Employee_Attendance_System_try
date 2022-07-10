@@ -11,22 +11,34 @@
         android:theme="@style/Theme.EmployeeAttendanceSystem">
         <activity
             android:name=".ViewEmployees"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".EmployeeDetails"
+            />
         <activity
             android:name=".TimeOUT"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".TimeInTimeOut"
+            />
         <activity
             android:name=".TimeIN"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".TimeInTimeOut"
+            />
         <activity
             android:name=".SignInAdmin"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".TimeInTimeOut"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".EmployeeDetails"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".SignIn"
             android:exported="false"
